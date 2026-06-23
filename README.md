@@ -1,6 +1,6 @@
 # rsky.crv
 
-**Profit.OS — Alan + Claude Co-work Surface**
+**Profit.OS — Alan + AI Co-work Surface**
 
 This repository is the public exchange layer of the `rsky.crv` Obsidian vault.  
 It is not a full vault mirror. The vault is private. This repo exposes one folder only.
@@ -37,6 +37,7 @@ Artifacts produced in session (MRBs, prompt files, configs, schemas) are staged 
 for Alan to pull, review, and promote into the local vault.
 
 **Commit convention**
+
 ```
 inbox: <what was added and why>
 update: <what changed>
@@ -59,6 +60,7 @@ operating inside a personal financial intelligence system called **Profit.OS**.
 ## System
 
 **Profit.OS** is a liquidity-aware portfolio operating system built for:
+
 - capital survivability
 - regime-aware positioning
 - asymmetric deployment
@@ -70,4 +72,4 @@ The pipeline code lives in the private vault. Only artifacts and documentation s
 
 ---
 
-*Last updated: 2026-06-23*
+_Last updated: 2026-06-23_
