@@ -28,21 +28,37 @@ No pipeline scripts, no credentials, no private library content is present in th
 
 ## Co-work Protocol
 
-**Alan → Claude**  
+**Alan → AI**  
 Drop files into `00-Inbox/`, push, reference by raw URL or by name in session.  
-Claude fetches directly. No copy-paste required.
+AI fetches directly. No copy-paste required.
 
-**Claude → Alan**  
+**AI → Alan**  
 Artifacts produced in session (MRBs, prompt files, configs, schemas) are staged here  
 for Alan to pull, review, and promote into the local vault.
 
 **Commit convention**
-
 ```
 inbox: <what was added and why>
 update: <what changed>
 remove: <what was cleaned out>
 ```
+
+---
+
+## AI Consumers
+
+All three operate under the same access rule:  
+**Read from `00-Inbox/` only. Write by producing artifacts for Alan to commit.**  
+No direct repo write access. No access to vault paths outside `00-Inbox/`.
+
+| AI | Access | Raw base URL |
+|----|--------|--------------|
+| Claude (Anthropic) | `00-Inbox/` read | `https://raw.githubusercontent.com/AlanGrid/rsky.crv/main/00-Inbox/` |
+| ChatGPT (OpenAI) | `00-Inbox/` read | `https://raw.githubusercontent.com/AlanGrid/rsky.crv/main/00-Inbox/` |
+| Grok (xAI) | `00-Inbox/` read | `https://raw.githubusercontent.com/AlanGrid/rsky.crv/main/00-Inbox/` |
+
+To fetch any file, append the relative path to the base URL.  
+Example: `https://raw.githubusercontent.com/AlanGrid/rsky.crv/main/00-Inbox/notes/session.md`
 
 ---
 
@@ -52,7 +68,7 @@ remove: <what was cleaned out>
 - Not a deployment target
 - Not a public project in the conventional sense
 
-It is a structured handoff surface between a human operator and an AI co-worker  
+It is a structured handoff surface between a human operator and AI co-workers  
 operating inside a personal financial intelligence system called **Profit.OS**.
 
 ---
@@ -60,7 +76,6 @@ operating inside a personal financial intelligence system called **Profit.OS**.
 ## System
 
 **Profit.OS** is a liquidity-aware portfolio operating system built for:
-
 - capital survivability
 - regime-aware positioning
 - asymmetric deployment
@@ -72,4 +87,4 @@ The pipeline code lives in the private vault. Only artifacts and documentation s
 
 ---
 
-_Last updated: 2026-06-23_
+*Last updated: 2026-06-23*
