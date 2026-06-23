@@ -11,14 +11,15 @@ It is not a full vault mirror. The vault is private. This repo exposes one folde
 
 ```
 00-Inbox/
-  datasets/     — watchlist snapshots, signal logs, scored asset exports
-  downloads/    — external data staged for review
-  exports/      — pipeline outputs (briefs, verdicts, reports)
-  notes/        — session checkpoints, MRB drafts, architecture notes
-  projects/     — active build artifacts (prompts, schemas, configs)
-  screenshots/  — diagnostic captures
-  temporary/    — scratch space, not expected to persist
-  unsorted/     — unclassified drops
+  datasets/       — signal logs, watchlist snapshots
+  downloads/      — external data staged for review
+  exports/        — pipeline outputs (briefs, verdicts)
+  memory/         — MRB exchange, index, rules, template ← NEW
+  notes/          — session checkpoints, architecture notes
+  projects/       — active build artifacts (prompts, schemas)
+  screenshots/    — diagnostic captures
+  temporary/      — scratch space
+  unsorted/       — unclassified drops
 ```
 
 Everything outside `00-Inbox/` is excluded via `.gitignore`.  
