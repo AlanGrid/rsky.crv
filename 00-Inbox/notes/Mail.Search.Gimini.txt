@@ -1,0 +1,1 @@
+"Do today's digest" or "@Gmail find my most recent Medium Daily Digest email" right here in the chat box. This explicitly commands the native Google Workspace tool to look up the content.

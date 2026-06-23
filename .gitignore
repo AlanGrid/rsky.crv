@@ -1,0 +1,7 @@
+﻿# === EXCLUDE EVERYTHING ===
+*
+
+# === EXCEPT THESE ===
+!.gitignore
+!00-Inbox/
+!00-Inbox/**

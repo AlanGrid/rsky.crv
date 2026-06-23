@@ -1,0 +1,580 @@
+Delivered-To: rskycar@gmail.com
+Received: by 2002:a05:6358:6915:b0:299:89cf:240 with SMTP id d21csp874273rwh;
+        Thu, 28 May 2026 05:15:14 -0700 (PDT)
+X-Received: by 2002:a05:620a:2955:b0:914:c01e:6f82 with SMTP id af79cd13be357-914c01e7f27mr3421407485a.21.1779970513164;
+        Thu, 28 May 2026 05:15:13 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1779970513; cv=none;
+        d=google.com; s=arc-20240605;
+        b=j9+lSiStIgKN4XCJgeVLiDTW2QUQntxo0IJH/WBy3UPH4hGKp/PP2FlKU+E8xr4CVP
+         W2pLWr+Aqg6VfF1PLZigU65owoY+/YV7Z0ZR47On0KhwhPps52yPBhqpxHe7Ar0b9wuU
+         xMlzGwuoFIkn0bufYJFpyXoKO7jMggUNaYMAKhkYSZNvbsEBXuJeDlns03JJaVc1q9Vs
+         y5QaZHu4jt+6aiTlj6jZwK0ySflWWERdkPUyOIjuv41aRMvvOkH6fz8bDWw4LYKOtU4Z
+         2SbPyI4akKHsTy62TEZ99zu3Fb5848KvTdJEklita/xn2rRkMA3pqC1BgGTmljqvvphR
+         9Qgw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:require-recipient-valid-since:reply-to:precedence
+         :mime-version:message-id:list-unsubscribe-post:list-unsubscribe:from
+         :feedback-id:dkim-signature:dkim-signature:date;
+        bh=EqW0vapBi/xudRCrAHKERXXEfIYkU7mdI77rQlHcDQk=;
+        fh=+N1gn/0Osa8jzFE0afd0Z/rE9KiwQBPJy86TvHQ9TUY=;
+        b=SAve5rhxwMImkjjXNccWVKcEKnOgChB2+ML0AsVOOqK23QY9+eAbMA/+ITmkaEAiZG
+         CdJzH59NAAz3IOi6wpEMOrEobLkSKHmOIL3NGvc9OpKNeR4uH4+PhpLY3+i8tab8FFsJ
+         IBpgX8gvcYlYK6OCFAVZKiPA6+4frLhDLYt9dSt/SA5ndPVdZ8VOPFytQJIl3xZcH644
+         Z0IcrtvjaZrVLcywSNHWGznRFdIPf6dyhoMUpHbdGJ8+RKZrywtkOVe4Rx9VR55m9Tks
+         4cV0R0NA9B+1o4YWG6hsR0vijcB4UCpJlb5NFq2h/zhj0e8G/D/P9TeNQq9omh9R7uha
+         vCZQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@newsletter.coingecko.com header.s=s1024a header.b=WMyc95bZ;
+       dkim=pass header.i=@coingecko.com header.s=282b192b header.b=tDgKTLNJ;
+       spf=pass (google.com: domain of bounce-3@bounce.newsletter.coingecko.com designates 104.160.76.158 as permitted sender) smtp.mailfrom=bounce-3@bounce.newsletter.coingecko.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=coingecko.com
+Return-Path: <bounce-3@bounce.newsletter.coingecko.com>
+Received: from mta-1.newsletter.coingecko.com (mta-1.newsletter.coingecko.com. [104.160.76.158])
+        by mx.google.com with ESMTPS id af79cd13be357-9150afd41e7si464089285a.87.2026.05.28.05.15.13
+        for <rskycar@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 28 May 2026 05:15:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-3@bounce.newsletter.coingecko.com designates 104.160.76.158 as permitted sender) client-ip=104.160.76.158;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@newsletter.coingecko.com header.s=s1024a header.b=WMyc95bZ;
+       dkim=pass header.i=@coingecko.com header.s=282b192b header.b=tDgKTLNJ;
+       spf=pass (google.com: domain of bounce-3@bounce.newsletter.coingecko.com designates 104.160.76.158 as permitted sender) smtp.mailfrom=bounce-3@bounce.newsletter.coingecko.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=coingecko.com
+Content-Type: multipart/alternative; boundary=12273453784ed135d5b07d897a0b10e6
+Date: Thu, 28 May 2026 12:15:01 +0000
+DKIM-Signature: a=rsa-sha256; b=WMyc95bZfxa9gWGtxQCDCBPMB4k4A887DnN4EvBhmNfIUEyR7ZTA3dZF7pQLucmMZ9isFWrT98Mqmpao0q+oz3z62FRIMILQjrZ5S84qaobeT9yqu6aF/3H4WjkLNxYFCo+FO7w+LFVwLbTzBi6Pee1DEYZ7mEkffAZqutg0TW8=; bh=+I+bIuuwqvPzTmuTIe7R1PhxbsQKNnZqFK34yGllqvE=; c=simple/simple; d=newsletter.coingecko.com; h=Sender:From:From:To:To:CC:Subject:Subject:Message-ID:Message-ID:List-Unsubscribe:List-Unsubscribe:List-Unsubscribe-Post:List-Unsubscribe-Post:X-CSA-Complaints:X-CSA-Complaints; s=s1024a; t=1779970501; v=1; x=1780056901;
+DKIM-Signature: a=rsa-sha256; b=tDgKTLNJH6iZOowy13qGEqpfIn2AlL57RttDGj9nadH03+aHL57Zdb+kSc5UALGsxP2LfbwKiLaazGH27sPOPN0Nn7a0N031Zy6OWcj/qSz+cb5rpeIbgvX8617Bzo/F6DmhDnH0BDHa+c8KVbnv+Li1qdcDBN0/rcy5N37tG1I=; bh=+I+bIuuwqvPzTmuTIe7R1PhxbsQKNnZqFK34yGllqvE=; c=simple/simple; d=coingecko.com; h=Sender:From:From:To:To:CC:Subject:Subject:Message-ID:Message-ID:List-Unsubscribe:List-Unsubscribe:List-Unsubscribe-Post:List-Unsubscribe-Post:X-CSA-Complaints:X-CSA-Complaints; s=282b192b; t=1779970501; v=1; x=1780056901;
+Feedback-ID: c=i6:u=n:automation:coingecko
+From: "CoinGecko API" <api@coingecko.com>
+List-Unsubscribe: <https://newsletter.coingecko.com/one_click_unsubscribe.html?x=a62e&co=wEld&m=dR7&s=d37o0&u=p&z=hyUUaW&>, <mailto:listunsubscribe@newsletter.coingecko.com?subject=coingecko.xserial.s56e5aCfPPXcRZh1Xsbey3IE2XRxAK3vykhKogYw3uB8FFndDXfIq8d%2BozFdj7ewRwzoQiY3Bvf3QT4QO9ixHn6UHcud352CcVtogwoOBMUFPv8qS%2FDsaNULIKxlCk8g6i2v>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Message-ID: <coingecko.xserial.s56e5aCfPPXcRZh1Xsbey3IE2XRxAK3vykhKogYw3uB8FFndDXfIq8d+ozFdj7ewRwzoQiY3Bvf3QT4QO9ixHn6UHcud352CcVtogwoOBMUFPv8qS/DsaNULIKxlCk8g6i2v@newsletter.coingecko.com>
+MIME-Version: 1.0
+Precedence: bulk
+Reply-To: support@coingecko.com
+Require-Recipient-Valid-Since: rskycar@gmail.com; Mon, 25 May 2026 12:07:49 +0000
+Return-Path: bounce-3@bounce.newsletter.coingecko.com
+Subject: =?UTF-8?Q?5_Most_Popular_API_Endpoints_=F0=9F=91=80?=
+To: "Alan" <rskycar@gmail.com>
+X-Complaints-To: abuse@newsletter.coingecko.com
+X-CSA-Complaints: csa-complaints@eco.de
+
+
+--12273453784ed135d5b07d897a0b10e6
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+Used by thousands of crypto projects & analysts=E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =
+=E2=80=8C =E2=80=8C =E2=80=8C=20=0A=0AGM =F0=9F=91=8B=0A=0A=0AReady to take=
+ things up a notch?=0A=0A=0AHere are the5 most popular CoinGecko API endpoi=
+ntsused by thousands of crypto projects, analysts, traders and researchers:=
+=0A=0A1. /coins/markets=0A=0AUse this endpoint to fetch all coins' market d=
+ata (price, market cap, volume), in your target currency (USD, EUR, GBP and=
+ so on).=0A=0A=0APRO-TIP: Add param filters to get coin category data and o=
+rder by market cap (ascending or descending).=0A=0AThis is by far the most =
+popular endpoint. Here's the data visualized on our home page:=0A=0A=0A[htt=
+ps://multimedia.newsletter.coingecko.com/coingecko-h/photos/93e3babb-e75e-4=
+d96-940b-161d2e5773db.png]=0A2. /simple/price=0A=0AUse /simple/priceto get =
+the coin price data in supporting currencies.=0A=0A=0APRO-TIP: Paid API sub=
+scribers enjoy a 30 seconds update frequency.=0A=0A3. /coins/{id}=0A=0AThis=
+ endpoint returns coins' metadata, from coin logo, social links, contract a=
+ddress, developer and community statistics, to price and market data, trust=
+ score, exchange tickers and more.=0A=0A=0APRO-TIP: The ticker object is li=
+mited to 100 items. To get more tickers, you can use the /coins/{id}/ticker=
+s endpoint.=0A=0AHere's the /simple/price and /coins/{id} data, visualized =
+on our coins page:=0A=0A=0A[https://multimedia.newsletter.coingecko.com/coi=
+ngecko-h/photos/13aebc3c-73fe-4e0a-8203-32d910dfc033.png]=0A4. /coins/top_g=
+ainers_losers (paid endpoint)=0A=0AGet data on the top 30 coins with the la=
+rgest price gain and loss, within a specific time period (1h, 24h - default=
+, 7d, 14d, 30d, 60d, 1y).=0A=0A=0APRO-TIP: Only coins with a 24-hour tradin=
+g volume of minimally $50,000 are included in our top 30 crypto gainers & l=
+osers list.=0A=0AThe endpoint equivalent is our Top Crypto Gainers and Lose=
+rs page:=0A=0A=0A[https://multimedia.newsletter.coingecko.com/coingecko-h/p=
+hotos/c9b96355-eb4c-42e4-bdf3-19efcc86fcd2.png]=0A5. /nfts/markets (paid en=
+dpoint)=0A=0AThis NFT data endpoint will return the list of all supported N=
+FT collections' floor price, market cap, volume and market data.=0A=0A=0APR=
+O-TIP: Get the asset platform ids via the/asset_platforms?filter=3Dnft endp=
+oint.=0A=0ASimilarly, you'll find the NFT data on our NFT floor price track=
+er:=0A=0A=0A[https://multimedia.newsletter.coingecko.com/coingecko-h/photos=
+/b8a59a4c-1ff7-43da-9a5a-e22afd076cfe.png]=0AWith 70+ endpoints in total, w=
+e can't cover them all here. Head over to our documentation to see all endp=
+oints in action!=0A=0A=0AView API Docs [https://newsletter.coingecko.com/em=
+ail_marketing_click.html?x=3Da62e&an=3D0X&co=3DwEld&lc=3DGH9&mc=3D0&s=3Dd37=
+o0&u=3Dp&z=3DhaJkrgV&]=0A=0A=0AGot a question? Hit the reply button and get=
+ in touch.=0A=0A=0A=0A=0ALFG,=0AThe CoinGecko Team=0Awww.coingecko.com/api =
+[https://newsletter.coingecko.com/email_marketing_click.html?x=3Da62e&an=3D=
+0X&co=3DwEld&lc=3Dxra&mc=3D0&s=3Dd37o0&u=3Dp&z=3DhhY30xM&]=0A=0A=0A=0ACoinG=
+ecko API for Business [https://multimedia.newsletter.coingecko.com/coingeck=
+o-h/photos/a353cf13-ea69-4c66-bd38-74cc5953c949.png]=0A=0A=0A=0A=0A=0A=0A=
+=0A=0AYou may unsubscribe [https://newsletter.coingecko.com/unsubscribe.htm=
+l?x=3Da62e&co=3DwEld&m=3DdR7&mc=3D0&s=3Dd37o0&u=3Dp&z=3DhP2QQz6&] or change=
+ your contact details [https://newsletter.coingecko.com/change_details.html=
+?x=3Da62e&co=3DwEld&m=3DdR7&s=3Dd37o0&u=3Dp&z=3DhQc0s6e&] at any time.=0A=
+
+--12273453784ed135d5b07d897a0b10e6
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!doctype html><html lang=3D"en" dir=3D"auto" xmlns=3D"http://www.w3.org/19=
+99/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-=
+microsoft-com:office:office"><head><title></title><!--[if !mso]><!--><meta =
+http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"><!--<![endif]--><meta =
+http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><meta na=
+me=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1"><style t=
+ype=3D"text/css">#outlook a { padding:0; }=0A      body { margin:0;padding:=
+0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }=0A      table,=
+ td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }=
+=0A      img { border:0;height:auto;line-height:100%; outline:none;text-dec=
+oration:none;-ms-interpolation-mode:bicubic; }=0A      p { display:block;ma=
+rgin:13px 0; }</style><!--[if mso]>=0A    <noscript>=0A    <xml>=0A    <o:O=
+fficeDocumentSettings>=0A      <o:AllowPNG/>=0A      <o:PixelsPerInch>96</o=
+:PixelsPerInch>=0A    </o:OfficeDocumentSettings>=0A    </xml>=0A    </nosc=
+ript>=0A    <![endif]--><!--[if lte mso 11]>=0A    <style type=3D"text/css"=
+>=0A      .mj-outlook-group-fix { width:100% !important; }=0A    </style>=
+=0A    <![endif]--><style type=3D"text/css">@media only screen and (min-wid=
+th:480px) {=0A        .mj-column-per-100 { width:100% !important; max-width=
+: 100%; }=0A      }</style><style media=3D"screen and (min-width:480px)">.m=
+oz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }=
+</style><style type=3D"text/css">@media only screen and (max-width:479px) {=
+=0A      table.mj-full-width-mobile { width: 100% !important; }=0A      td.=
+mj-full-width-mobile { width: auto !important; }=0A    }</style><style type=
+=3D"text/css">@media (max-width: 479px) {=0D=0A.hide-on-mobile {=0D=0Adispl=
+ay: none !important;=0D=0A}=0D=0A}=0A.gr-mltext-lqimag a,=0D=0A.gr-mltext-l=
+qimag a:visited {=0D=0Atext-decoration: none;=0D=0A}=0A.gr-mltext-lxlikp a,=
+=0D=0A.gr-mltext-lxlikp a:visited {=0D=0Atext-decoration: none;=0D=0A}=0A.g=
+r-mltext-ippntp a,=0D=0A.gr-mltext-ippntp a:visited {=0D=0Atext-decoration:=
+ none;=0D=0A}=0A.gr-mltext-xesmvv a,=0D=0A.gr-mltext-xesmvv a:visited {=0D=
+=0Atext-decoration: none;=0D=0A}=0A.gr-mltext-pwarvg a,=0D=0A.gr-mltext-pwa=
+rvg a:visited {=0D=0Atext-decoration: none;=0D=0A}=0A.gr-mlimage-ibuuts img=
+ {=0D=0Abox-sizing: border-box;=0D=0A}=0D=0A@media (min-width: 480px) {=0D=
+=0A.gr-mlimage-ckkjsd {=0D=0Aheight: 397px !important;=0D=0A}=0D=0A}=0A.gr-=
+mltext-avykuj a,=0D=0A.gr-mltext-avykuj a:visited {=0D=0Atext-decoration: n=
+one;=0D=0A}=0A.gr-mltext-vjstnv a,=0D=0A.gr-mltext-vjstnv a:visited {=0D=0A=
+text-decoration: none;=0D=0A}=0A.gr-mltext-gaovcy a,=0D=0A.gr-mltext-gaovcy=
+ a:visited {=0D=0Atext-decoration: none;=0D=0A}=0A.gr-mltext-jovywf a,=0D=
+=0A.gr-mltext-jovywf a:visited {=0D=0Atext-decoration: none;=0D=0A}=0A.gr-m=
+ltext-chncux a,=0D=0A.gr-mltext-chncux a:visited {=0D=0Atext-decoration: no=
+ne;=0D=0A}=0A.gr-mlimage-ibuuts img {=0D=0Abox-sizing: border-box;=0D=0A}=
+=0D=0A@media (min-width: 480px) {=0D=0A.gr-mlimage-iywpjt {=0D=0Aheight: 25=
+0px !important;=0D=0A}=0D=0A}=0A.gr-mltext-pogcsc a,=0D=0A.gr-mltext-pogcsc=
+ a:visited {=0D=0Atext-decoration: none;=0D=0A}=0A.gr-mltext-bslnqb a,=0D=
+=0A.gr-mltext-bslnqb a:visited {=0D=0Atext-decoration: none;=0D=0A}=0A.gr-m=
+ltext-tltjmn a,=0D=0A.gr-mltext-tltjmn a:visited {=0D=0Atext-decoration: no=
+ne;=0D=0A}=0A.gr-mlimage-ibuuts img {=0D=0Abox-sizing: border-box;=0D=0A}=
+=0D=0A@media (min-width: 480px) {=0D=0A.gr-mlimage-omwsgj {=0D=0Aheight: 30=
+1px !important;=0D=0A}=0D=0A}=0A.gr-mltext-jdqash a,=0D=0A.gr-mltext-jdqash=
+ a:visited {=0D=0Atext-decoration: none;=0D=0A}=0A.gr-mltext-hvonpp a,=0D=
+=0A.gr-mltext-hvonpp a:visited {=0D=0Atext-decoration: none;=0D=0A}=0A.gr-m=
+ltext-feoamn a,=0D=0A.gr-mltext-feoamn a:visited {=0D=0Atext-decoration: no=
+ne;=0D=0A}=0A.gr-mlimage-ibuuts img {=0D=0Abox-sizing: border-box;=0D=0A}=
+=0D=0A@media (min-width: 480px) {=0D=0A.gr-mlimage-jkkdqo {=0D=0Aheight: 38=
+2px !important;=0D=0A}=0D=0A}=0A.gr-mltext-qrgcjq a,=0D=0A.gr-mltext-qrgcjq=
+ a:visited {=0D=0Atext-decoration: none;=0D=0A}=0A.gr-mlbutton-auwcnh p {=
+=0D=0Adirection: ltr;=0D=0A}=0A.gr-mltext-wvjnrv a,=0D=0A.gr-mltext-wvjnrv =
+a:visited {=0D=0Atext-decoration: none;=0D=0A}=0A.gr-mlimage-ibuuts img {=
+=0D=0Abox-sizing: border-box;=0D=0A}=0D=0A@media (min-width: 480px) {=0D=0A=
+.gr-mlimage-lsojjn {=0D=0Aheight: 61px !important;=0D=0A}=0D=0A}=0A.gr-foot=
+er-fnpsjr a,=0D=0A.gr-footer-fnpsjr a:visited {=0D=0Acolor: #4142EC;=0D=0At=
+ext-decoration: underline;=0D=0A}</style><link href=3D"https://fonts.google=
+apis.com/css?display=3Dswap&family=3DInter:400,400i,700,700i&subset=3Dcyril=
+lic,greek,latin-ext,vietnamese" rel=3D"stylesheet" type=3D"text/css"><style=
+ type=3D"text/css">@import url(https://fonts.googleapis.com/css?display=3Ds=
+wap&family=3DInter:400,400i,700,700i&subset=3Dcyrillic,greek,latin-ext,viet=
+namese);</style></head><body style=3D"word-spacing:normal;background-color:=
+#FFFFFF;"><div style=3D"display:none;font-size:1px;color:#ffffff;line-heigh=
+t:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Used by thou=
+sands of crypto projects &amp; analysts<div style=3D"max-height:0; overflow=
+:hidden; mso-hide:all;" aria-hidden=3D"true">&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;=
+&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zw=
+nj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;=
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp; &nbsp;&zwnj;&nbsp=
+;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp; &nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp; =
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;=
+&nbsp; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp=
+;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp; &nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp; &nb=
+sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;=
+&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;</div></div><div class=3D"elem-body" style=3D"background-color:#FFFFFF;"=
+ lang=3D"en" dir=3D"auto">  <table align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#FFFFFF=
+;background-color:#FFFFFF;width:100%;"><tbody><tr><td><!--[if mso | IE]><ta=
+ble align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"" role=3D"presentation" style=3D"width:600px;" width=3D"600" bgcolor=3D=
+"#FFFFFF" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-r=
+ule:exactly;"><![endif]--><div style=3D"margin:0px auto;max-width:600px;"><=
+table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"border-bot=
+tom:0 none #000000;border-left:0 none #000000;border-right:0 none #000000;b=
+order-top:0 none #000000;direction:ltr;font-size:0px;padding:0;text-align:c=
+enter;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top=
+;width:600px;" ><![endif]--><div class=3D"mj-column-per-100 mj-outlook-grou=
+p-fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-=
+block;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td styl=
+e=3D"background-color:transparent;border-bottom:none;border-left:none;borde=
+r-right:none;border-top:none;vertical-align:top;padding:0;"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"1=
+00%"><tbody><tr><td align=3D"left" class=3D"gr-mltext-wqcguh gr-mltext-lqim=
+ag" style=3D"font-size:0px;padding:0;word-break:break-word;"><div style=3D"=
+font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height=
+:1.4;text-align:left;color:#000000;"><p style=3D"font-family:Arial;font-siz=
+e:14px;margin-top:0px;margin-bottom:0px;font-weight:normal;color:#000000;">=
+<span style=3D"font-size: 16px">GM =F0=9F=91=8B</span></p></div></td></tr><=
+tr><td style=3D"font-size:0px;word-break:break-word;"><div style=3D"height:=
+20px;line-height:20px;">&#8202;</div></td></tr><tr><td align=3D"left" class=
+=3D"gr-mltext-wqcguh gr-mltext-lxlikp" style=3D"font-size:0px;padding:0 0 4=
+px 0;word-break:break-word;"><div style=3D"font-family:Ubuntu, Helvetica, A=
+rial, sans-serif;font-size:13px;line-height:1.4;text-align:left;color:#0000=
+00;"><div style=3D"text-align: left"><p style=3D"font-family:Arial;font-siz=
+e:14px;margin-top:0px;margin-bottom:0px;font-weight:normal;color:#000000;">=
+<span style=3D"font-size: 16px">Ready to take things up a notch?</span></p>=
+</div><div style=3D"text-align: left"><p style=3D"font-family:Arial;font-si=
+ze:14px;margin-top:0px;margin-bottom:0px;font-weight:normal;color:#000000;"=
+><br></p></div><div style=3D"text-align: left"><p style=3D"font-family:Aria=
+l;font-size:14px;margin-top:0px;margin-bottom:0px;font-weight:normal;color:=
+#000000;"><span style=3D"font-size: 16px">Here are the<strong>&nbsp;5 most =
+popular CoinGecko API endpoints</strong>&nbsp;used by thousands of crypto p=
+rojects, analysts, traders and researchers:</span></p></div></div></td></tr=
+><tr><td align=3D"left" class=3D"gr-mltext-wqcguh gr-mltext-ippntp" style=
+=3D"font-size:0px;padding:15px 0 5px 0;word-break:break-word;"><div style=
+=3D"font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-he=
+ight:1.4;text-align:left;color:#000000;"><p style=3D"font-family:Arial;font=
+-size:14px;margin-top:0px;margin-bottom:0px;font-weight:normal;color:#00000=
+0;"><span style=3D"color: #32CA5B"><strong><span style=3D"font-size: 18px">=
+<span style=3D"font-family: Inter, Arial, sans-serif">1. /coins/markets</sp=
+an></span></strong></span></p></div></td></tr><tr><td align=3D"left" class=
+=3D"gr-mltext-wqcguh gr-mltext-xesmvv" style=3D"background:#F1F5F9;font-siz=
+e:0px;padding:15px 25px 5px 25px;word-break:break-word;"><div style=3D"font=
+-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1.4=
+;text-align:left;color:#000000;"><p style=3D"font-family:Arial;font-size:14=
+px;margin-top:0px;margin-bottom:0px;font-weight:normal;color:#000000;"><spa=
+n style=3D"font-size: 16px">Use this endpoint to fetch all coins' market da=
+ta (price, market cap, volume), in your target currency (USD, EUR, GBP and =
+so on).</span></p><p style=3D"font-family:Arial;font-size:14px;margin-top:0=
+px;margin-bottom:0px;font-weight:normal;color:#000000;"><br></p><p style=3D=
+"font-family:Arial;font-size:14px;margin-top:0px;margin-bottom:0px;font-wei=
+ght:normal;color:#000000;"><span style=3D"color: #4F4F4F"><span style=3D"fo=
+nt-size: 13px">PRO-TIP: Add param filters to get coin category data and ord=
+er by market cap (ascending or descending).</span></span></p></div></td></t=
+r><tr><td align=3D"left" class=3D"gr-mltext-wqcguh gr-mltext-pwarvg" style=
+=3D"font-size:0px;padding:15px 25px 5px 25px;word-break:break-word;"><div s=
+tyle=3D"font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;lin=
+e-height:1.4;text-align:left;color:#000000;"><p style=3D"font-family:Arial;=
+font-size:14px;margin-top:0px;margin-bottom:0px;font-weight:normal;color:#0=
+00000;"><span style=3D"font-size: 16px">This is by far the most popular end=
+point. Here's the data visualized on our home page:</span></p></div></td></=
+tr><tr><td align=3D"center" class=3D"gr-mlimage-ibuuts gr-mlimage-ckkjsd" s=
+tyle=3D"font-size:0px;padding:5px 0 0 0;word-break:break-word;"><table bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"border-collapse:collapse;border-spacing:0px;" class=3D"mj-full-width-mobil=
+e"><tbody><tr><td style=3D"width:600px;" class=3D"mj-full-width-mobile"><im=
+g alt=3D"" src=3D"https://multimedia.newsletter.coingecko.com/coingecko-h/p=
+hotos/93e3babb-e75e-4d96-940b-161d2e5773db.png" style=3D"border:0;border-le=
+ft:0 none #000000;border-right:0 none #000000;border-top:0 none #000000;bor=
+der-bottom:0 none #000000;border-radius:0;display:block;outline:none;text-d=
+ecoration:none;height:auto;width:100%;font-size:13px;" width=3D"600" height=
+=3D"auto"></td></tr></tbody></table></td></tr><tr><td align=3D"left" class=
+=3D"gr-mltext-wqcguh gr-mltext-avykuj" style=3D"font-size:0px;padding:15px =
+0 5px 0;word-break:break-word;"><div style=3D"font-family:Ubuntu, Helvetica=
+, Arial, sans-serif;font-size:13px;line-height:1.4;text-align:left;color:#0=
+00000;"><p style=3D"font-family:Arial;font-size:14px;margin-top:0px;margin-=
+bottom:0px;font-weight:normal;color:#000000;"><span style=3D"color: #0297A7=
+"><strong><span style=3D"font-size: 18px"><span style=3D"font-family: Inter=
+, Arial, sans-serif">2. /simple/price</span></span></strong></span></p></di=
+v></td></tr><tr><td align=3D"left" class=3D"gr-mltext-wqcguh gr-mltext-vjst=
+nv" style=3D"background:#F1F5F9;font-size:0px;padding:15px 25px 5px 25px;wo=
+rd-break:break-word;"><div style=3D"font-family:Ubuntu, Helvetica, Arial, s=
+ans-serif;font-size:13px;line-height:1.4;text-align:left;color:#000000;"><p=
+ style=3D"font-family:Arial;font-size:14px;margin-top:0px;margin-bottom:0px=
+;font-weight:normal;color:#000000;"><span style=3D"font-size: 16px">Use <st=
+rong>/simple/price</strong>&nbsp;to get the coin price data in supporting c=
+urrencies.</span></p><p style=3D"font-family:Arial;font-size:14px;margin-to=
+p:0px;margin-bottom:0px;font-weight:normal;color:#000000;"><br></p><p style=
+=3D"font-family:Arial;font-size:14px;margin-top:0px;margin-bottom:0px;font-=
+weight:normal;color:#000000;"><span style=3D"color: #4F4F4F"><span style=3D=
+"font-size: 13px">PRO-TIP: Paid API subscribers enjoy a 30 seconds update f=
+requency.</span></span></p></div></td></tr><tr><td align=3D"left" class=3D"=
+gr-mltext-wqcguh gr-mltext-gaovcy" style=3D"font-size:0px;padding:20px 0 5p=
+x 0;word-break:break-word;"><div style=3D"font-family:Ubuntu, Helvetica, Ar=
+ial, sans-serif;font-size:13px;line-height:1.4;text-align:left;color:#00000=
+0;"><p style=3D"font-family:Arial;font-size:14px;margin-top:0px;margin-bott=
+om:0px;font-weight:normal;color:#000000;"><span style=3D"color: #DBB925"><s=
+trong><span style=3D"font-size: 18px"><span style=3D"font-family: Inter, Ar=
+ial, sans-serif">3. /coins/{id}</span></span></strong></span></p></div></td=
+></tr><tr><td align=3D"left" class=3D"gr-mltext-wqcguh gr-mltext-jovywf" st=
+yle=3D"background:#F1F5F9;font-size:0px;padding:15px 25px 5px 25px;word-bre=
+ak:break-word;"><div style=3D"font-family:Ubuntu, Helvetica, Arial, sans-se=
+rif;font-size:13px;line-height:1.4;text-align:left;color:#000000;"><p style=
+=3D"font-family:Arial;font-size:14px;margin-top:0px;margin-bottom:0px;font-=
+weight:normal;color:#000000;"><span style=3D"font-size: 16px">This endpoint=
+ returns coins' metadata, from coin logo, social links, contract address, d=
+eveloper and community statistics, to price and market data, trust score, e=
+xchange tickers and more.</span></p><p style=3D"font-family:Arial;font-size=
+:14px;margin-top:0px;margin-bottom:0px;font-weight:normal;color:#000000;"><=
+br></p><p style=3D"font-family:Arial;font-size:14px;margin-top:0px;margin-b=
+ottom:0px;font-weight:normal;color:#000000;"><span style=3D"color: #4F4F4F"=
+><span style=3D"font-size: 13px">PRO-TIP: The ticker object is limited to 1=
+00 items. To get more tickers, you can use the </span></span><span style=3D=
+"color: #4F4F4F"><strong><span style=3D"font-size: 13px">/coins/{id}/ticker=
+s </span></strong></span><span style=3D"color: #4F4F4F"><span style=3D"font=
+-size: 13px">endpoint.</span></span></p></div></td></tr><tr><td align=3D"le=
+ft" class=3D"gr-mltext-wqcguh gr-mltext-chncux" style=3D"font-size:0px;padd=
+ing:15px 25px 5px 25px;word-break:break-word;"><div style=3D"font-family:Ub=
+untu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1.4;text-alig=
+n:left;color:#000000;"><p style=3D"font-family:Arial;font-size:14px;margin-=
+top:0px;margin-bottom:0px;font-weight:normal;color:#000000;"><span style=3D=
+"font-size: 16px">Here's the <strong>/simple/price </strong>and <strong>/co=
+ins/{id} </strong>data, visualized on our coins page:</span></p></div></td>=
+</tr><tr><td align=3D"center" class=3D"gr-mlimage-ibuuts gr-mlimage-iywpjt"=
+ style=3D"font-size:0px;padding:5px 0 0 0;word-break:break-word;"><table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"border-collapse:collapse;border-spacing:0px;" class=3D"mj-full-width-mo=
+bile"><tbody><tr><td style=3D"width:600px;" class=3D"mj-full-width-mobile">=
+<img alt=3D"" src=3D"https://multimedia.newsletter.coingecko.com/coingecko-=
+h/photos/13aebc3c-73fe-4e0a-8203-32d910dfc033.png" style=3D"border:0;border=
+-left:0 none #000000;border-right:0 none #000000;border-top:0 none #000000;=
+border-bottom:0 none #000000;border-radius:0;display:block;outline:none;tex=
+t-decoration:none;height:auto;width:100%;font-size:13px;" width=3D"600" hei=
+ght=3D"auto"></td></tr></tbody></table></td></tr><tr><td align=3D"left" cla=
+ss=3D"gr-mltext-wqcguh gr-mltext-pogcsc" style=3D"font-size:0px;padding:15p=
+x 0 5px 0;word-break:break-word;"><div style=3D"font-family:Ubuntu, Helveti=
+ca, Arial, sans-serif;font-size:13px;line-height:1.4;text-align:left;color:=
+#000000;"><p style=3D"font-family:Arial;font-size:14px;margin-top:0px;margi=
+n-bottom:0px;font-weight:normal;color:#000000;"><span style=3D"color: #5D7C=
+A2"><strong><span style=3D"font-size: 18px"><span style=3D"font-family: Int=
+er, Arial, sans-serif">4. /coins/top_gainers_losers (paid endpoint)</span><=
+/span></strong></span></p></div></td></tr><tr><td align=3D"left" class=3D"g=
+r-mltext-wqcguh gr-mltext-bslnqb" style=3D"background:#F1F5F9;font-size:0px=
+;padding:15px 25px 5px 25px;word-break:break-word;"><div style=3D"font-fami=
+ly:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1.4;text=
+-align:left;color:#000000;"><p style=3D"font-family:Arial;font-size:14px;ma=
+rgin-top:0px;margin-bottom:0px;font-weight:normal;color:#000000;"><span sty=
+le=3D"font-size: 16px">Get data on the top 30 coins with the largest price =
+gain and loss, within a specific time period (1h, 24h - default, 7d, 14d, 3=
+0d, 60d, 1y).</span></p><p style=3D"font-family:Arial;font-size:14px;margin=
+-top:0px;margin-bottom:0px;font-weight:normal;color:#000000;"><br></p><p st=
+yle=3D"font-family:Arial;font-size:14px;margin-top:0px;margin-bottom:0px;fo=
+nt-weight:normal;color:#000000;"><span style=3D"color: #4F4F4F"><span style=
+=3D"font-size: 13px">PRO-TIP: Only coins with a 24-hour trading volume of m=
+inimally $50,000 are included in our top 30 crypto gainers &amp; losers lis=
+t.</span></span></p></div></td></tr><tr><td align=3D"left" class=3D"gr-mlte=
+xt-wqcguh gr-mltext-tltjmn" style=3D"font-size:0px;padding:15px 25px 5px 25=
+px;word-break:break-word;"><div style=3D"font-family:Ubuntu, Helvetica, Ari=
+al, sans-serif;font-size:13px;line-height:1.4;text-align:left;color:#000000=
+;"><p style=3D"font-family:Arial;font-size:14px;margin-top:0px;margin-botto=
+m:0px;font-weight:normal;color:#000000;"><span style=3D"font-size: 16px">Th=
+e endpoint equivalent is our Top Crypto Gainers and Losers page:</span></p>=
+</div></td></tr><tr><td align=3D"center" class=3D"gr-mlimage-ibuuts gr-mlim=
+age-omwsgj" style=3D"font-size:0px;padding:0;word-break:break-word;"><table=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" sty=
+le=3D"border-collapse:collapse;border-spacing:0px;" class=3D"mj-full-width-=
+mobile"><tbody><tr><td style=3D"width:600px;" class=3D"mj-full-width-mobile=
+"><img alt=3D"" src=3D"https://multimedia.newsletter.coingecko.com/coingeck=
+o-h/photos/c9b96355-eb4c-42e4-bdf3-19efcc86fcd2.png" style=3D"border:0;bord=
+er-left:0 none #000000;border-right:0 none #000000;border-top:0 none #00000=
+0;border-bottom:0 none #000000;border-radius:0;display:block;outline:none;t=
+ext-decoration:none;height:auto;width:100%;font-size:13px;" width=3D"600" h=
+eight=3D"auto"></td></tr></tbody></table></td></tr><tr><td align=3D"left" c=
+lass=3D"gr-mltext-wqcguh gr-mltext-jdqash" style=3D"font-size:0px;padding:1=
+5px 0 5px 0;word-break:break-word;"><div style=3D"font-family:Ubuntu, Helve=
+tica, Arial, sans-serif;font-size:13px;line-height:1.4;text-align:left;colo=
+r:#000000;"><p style=3D"font-family:Arial;font-size:14px;margin-top:0px;mar=
+gin-bottom:0px;font-weight:normal;color:#000000;"><span style=3D"color: #06=
+7038"><strong><span style=3D"font-size: 18px"><span style=3D"font-family: I=
+nter, Arial, sans-serif">5. /nfts/markets (paid endpoint)</span></span></st=
+rong></span></p></div></td></tr><tr><td align=3D"left" class=3D"gr-mltext-w=
+qcguh gr-mltext-hvonpp" style=3D"background:#F1F5F9;font-size:0px;padding:1=
+5px 25px;word-break:break-word;"><div style=3D"font-family:Ubuntu, Helvetic=
+a, Arial, sans-serif;font-size:13px;line-height:1.4;text-align:left;color:#=
+000000;"><p style=3D"font-family:Arial;font-size:14px;margin-top:0px;margin=
+-bottom:0px;font-weight:normal;color:#000000;"><span style=3D"font-size: 16=
+px">This NFT data endpoint will return the list of all supported NFT collec=
+tions' floor price, market cap, volume and market data.</span></p><p style=
+=3D"font-family:Arial;font-size:14px;margin-top:0px;margin-bottom:0px;font-=
+weight:normal;color:#000000;"><br></p><p style=3D"font-family:Arial;font-si=
+ze:14px;margin-top:0px;margin-bottom:0px;font-weight:normal;color:#000000;"=
+><span style=3D"color: #4F4F4F"><span style=3D"font-size: 13px">PRO-TIP: Ge=
+t the asset platform </span></span><span style=3D"color: #4F4F4F"><strong><=
+span style=3D"font-size: 13px">id</span></strong></span><span style=3D"colo=
+r: #4F4F4F"><span style=3D"font-size: 13px">s via the</span></span><span st=
+yle=3D"color: #4F4F4F"><strong><span style=3D"font-size: 13px">&nbsp;/asset=
+_platforms?filter=3Dnft </span></strong></span><span style=3D"color: #4F4F4=
+F"><span style=3D"font-size: 13px">endpoint.</span></span></p></div></td></=
+tr><tr><td align=3D"left" class=3D"gr-mltext-wqcguh gr-mltext-feoamn" style=
+=3D"font-size:0px;padding:15px 0 5px 0;word-break:break-word;"><div style=
+=3D"font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-he=
+ight:1.4;text-align:left;color:#000000;"><p style=3D"font-family:Arial;font=
+-size:14px;margin-top:0px;margin-bottom:0px;font-weight:normal;color:#00000=
+0;"><span style=3D"font-size: 16px">Similarly, you'll find the NFT data on =
+our NFT floor price tracker:</span></p></div></td></tr><tr><td align=3D"cen=
+ter" class=3D"gr-mlimage-ibuuts gr-mlimage-jkkdqo" style=3D"font-size:0px;p=
+adding:0;word-break:break-word;"><table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" style=3D"border-collapse:collapse;borde=
+r-spacing:0px;" class=3D"mj-full-width-mobile"><tbody><tr><td style=3D"widt=
+h:600px;" class=3D"mj-full-width-mobile"><img alt=3D"" src=3D"https://multi=
+media.newsletter.coingecko.com/coingecko-h/photos/b8a59a4c-1ff7-43da-9a5a-e=
+22afd076cfe.png" style=3D"border:0;border-left:0 none #000000;border-right:=
+0 none #000000;border-top:0 none #000000;border-bottom:0 none #000000;borde=
+r-radius:0;display:block;outline:none;text-decoration:none;height:auto;widt=
+h:100%;font-size:13px;" width=3D"600" height=3D"auto"></td></tr></tbody></t=
+able></td></tr><tr><td align=3D"left" class=3D"gr-mltext-wqcguh gr-mltext-q=
+rgcjq" style=3D"font-size:0px;padding:15px 0 5px 0;word-break:break-word;">=
+<div style=3D"font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13=
+px;line-height:1.4;text-align:left;color:#000000;"><p style=3D"font-family:=
+Arial;font-size:14px;margin-top:0px;margin-bottom:0px;font-weight:normal;co=
+lor:#000000;"><span style=3D"font-size: 16px">With 70+ endpoints in total, =
+we can't cover them all here. Head over to our documentation to see all end=
+points in action!</span></p></div></td></tr><tr><td align=3D"center" class=
+=3D"gr-mlbutton-lgltwf gr-mlbutton-auwcnh link-id-2e5ee5f31fc4" style=3D"fo=
+nt-size:0px;padding:15px 5px 10px 0;word-break:break-word;"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+order-collapse:separate;line-height:100%;"><tbody><tr><td align=3D"center" =
+bgcolor=3D"#32CA5B" role=3D"presentation" style=3D"border:none;border-botto=
+m:0 none #000000;border-left:0 none #000000;border-radius:6px;border-right:=
+0 none #000000;border-top:0 none #000000;cursor:auto;font-style:normal;mso-=
+padding-alt:12px 16px 11px 16px;background:#32CA5B;word-break:break-word;" =
+valign=3D"middle"><a href=3D"https://newsletter.coingecko.com/email_marketi=
+ng_click.html?x=3Da62e&an=3D0X&co=3DwEld&lc=3DGH9&mc=3D0&s=3Dd37o0&u=3Dp&z=
+=3DhPx0rMv&" style=3D"display:inline-block;background:#32CA5B;color:#FFFFFF=
+;font-family:Arial;font-size:18px;font-style:normal;font-weight:bold;line-h=
+eight:100%;margin:0;text-decoration:none;text-transform:none;padding:12px 1=
+6px 11px 16px;mso-padding-alt:0px;border-radius:6px;" target=3D"_blank">Vie=
+w API Docs</a></td></tr></tbody></table></td></tr><tr><td align=3D"left" cl=
+ass=3D"gr-mltext-wqcguh gr-mltext-wvjnrv" style=3D"font-size:0px;padding:0;=
+word-break:break-word;"><div style=3D"font-family:Ubuntu, Helvetica, Arial,=
+ sans-serif;font-size:13px;line-height:1.4;text-align:left;color:#000000;">=
+<p style=3D"font-family:Arial;font-size:14px;margin-top:0px;margin-bottom:0=
+px;font-weight:normal;color:#000000;"><br></p><p style=3D"font-family:Arial=
+;font-size:14px;margin-top:0px;margin-bottom:0px;font-weight:normal;color:#=
+000000;"><span style=3D"color: #828282"><em><span style=3D"font-size: 16px"=
+><span style=3D"font-family: Arial"><span style=3D"font-weight: 400"><span =
+style=3D"background-color: transparent">Got a question? Hit the reply butto=
+n and get in touch.</span></span></span></span></em></span></p><p style=3D"=
+font-family:Arial;font-size:14px;margin-top:0px;margin-bottom:0px;font-weig=
+ht:normal;color:#000000;"><br></p><p style=3D"font-family:Arial;font-size:1=
+4px;margin-top:0px;margin-bottom:0px;font-weight:normal;color:#000000;"><br=
+></p><p style=3D"font-family:Arial;font-size:14px;margin-top:0px;margin-bot=
+tom:0px;font-weight:normal;color:#000000;"><span style=3D"color: #000000"><=
+span style=3D"font-size: 16px"><span style=3D"font-family: Arial">LFG,</spa=
+n></span></span></p><p style=3D"font-family:Arial;font-size:14px;margin-top=
+:0px;margin-bottom:0px;font-weight:normal;color:#000000;"><span style=3D"co=
+lor: #000000"><span style=3D"font-size: 16px"><span style=3D"font-family: A=
+rial">The CoinGecko Team</span></span></span></p><p style=3D"font-family:Ar=
+ial;font-size:14px;margin-top:0px;margin-bottom:0px;font-weight:normal;colo=
+r:#000000;"><a href=3D"https://newsletter.coingecko.com/email_marketing_cli=
+ck.html?x=3Da62e&an=3D0X&co=3DwEld&lc=3Dxra&mc=3D0&s=3Dd37o0&u=3Dp&z=3DhpSY=
+a0y&" style=3D"text-decoration: none; color: inherit;" target=3D"_blank" cl=
+ass=3D"link-id-t0x3lf0sr"><span style=3D"color: #3D40C6"><span style=3D"fon=
+t-size: 16px"><span style=3D"font-family: Arial"><u>www.coingecko.com/api</=
+u></span></span></span></a></p></div></td></tr><tr><td style=3D"font-size:0=
+px;word-break:break-word;"><div style=3D"height:10px;line-height:10px;">&#8=
+202;</div></td></tr><tr><td align=3D"left" class=3D"gr-mlimage-ibuuts gr-ml=
+image-lsojjn" style=3D"font-size:0px;padding:0;word-break:break-word;"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" s=
+tyle=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style=
+=3D"width:250px;"><img alt=3D"CoinGecko API for Business" src=3D"https://mu=
+ltimedia.newsletter.coingecko.com/coingecko-h/photos/a353cf13-ea69-4c66-bd3=
+8-74cc5953c949.png" style=3D"border:0;border-left:0 none #000000;border-rig=
+ht:0 none #000000;border-top:0 none #000000;border-bottom:0 none #000000;bo=
+rder-radius:0;display:block;outline:none;text-decoration:none;height:auto;w=
+idth:100%;font-size:13px;" width=3D"250" height=3D"auto"></td></tr></tbody>=
+</table></td></tr></tbody></table></td></tr></tbody></table></div><!--[if m=
+so | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--=
+[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table><tabl=
+e align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"background:#FFFFFF;background-color:#FFFFFF;width:1=
+00%;"><tbody><tr><td><!--[if mso | IE]><table align=3D"center" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=
+=3D"width:600px;" width=3D"600" bgcolor=3D"#FFFFFF" ><tr><td style=3D"line-=
+height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div st=
+yle=3D"margin:0px auto;max-width:600px;"><table align=3D"center" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width=
+:100%;"><tbody><tr><td style=3D"border-bottom:0 none #000000;border-left:0 =
+none #000000;border-right:0 none #000000;border-top:0 none #000000;directio=
+n:ltr;font-size:0px;padding:0 10px;text-align:center;"><!--[if mso | IE]><t=
+able role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+><tr><td class=3D"" style=3D"vertical-align:top;width:580px;" ><![endif]-->=
+<div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0p=
+x;text-align:left;direction:ltr;display:inline-block;vertical-align:top;wid=
+th:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" width=3D"100%"><tbody><tr><td style=3D"background-color:transp=
+arent;border-bottom:none;border-left:none;border-right:none;border-top:none=
+;vertical-align:top;padding:0;"><table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"f=
+ont-size:0px;word-break:break-word;"><div style=3D"height:10px;line-height:=
+10px;">&#8202;</div></td></tr><tr><td style=3D"font-size:0px;word-break:bre=
+ak-word;"><div style=3D"height:20px;line-height:20px;">&#8202;</div></td></=
+tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><=
+/tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]><=
+/td></tr></table><![endif]--></td></tr></tbody></table><table align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"background:#FFFFFF;background-color:#FFFFFF;width:100%;"><tbody><t=
+r><td><!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px=
+;" width=3D"600" bgcolor=3D"#FFFFFF" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"margin:0=
+px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody=
+><tr><td style=3D"border-bottom:0 none #000000;border-left:0 none #000000;b=
+order-right:0 none #000000;border-top:0 none #000000;direction:ltr;font-siz=
+e:0px;padding:0 10px;text-align:center;"><!--[if mso | IE]><table role=3D"p=
+resentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=
+=3D"" style=3D"vertical-align:top;width:580px;" ><![endif]--><div class=3D"=
+mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0px;text-align:l=
+eft;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" w=
+idth=3D"100%"><tbody><tr><td style=3D"background-color:transparent;border-b=
+ottom:none;border-left:none;border-right:none;border-top:none;vertical-alig=
+n:top;padding:0;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" width=3D"100%"><tbody><tr><td align=3D"left" class=3D"=
+gr-footer-jasemu gr-footer-fnpsjr" style=3D"font-size:0px;padding:0;word-br=
+eak:break-word;"><div style=3D"font-family:Arial, sans-serif;font-size:10px=
+;font-style:normal;line-height:1;text-align:left;text-decoration:none;color=
+:#6B6B6B;"><div>You may <a href=3D"https://newsletter.coingecko.com/unsubsc=
+ribe.html?x=3Da62e&co=3DwEld&m=3DdR7&mc=3D0&s=3Dd37o0&u=3Dp&z=3DhhyfsDw&" t=
+arget=3D"_blank">unsubscribe</a> or <a href=3D"https://newsletter.coingecko=
+.com/change_details.html?x=3Da62e&co=3DwEld&m=3DdR7&s=3Dd37o0&u=3Dp&z=3DhCC=
+M0sc&" target=3D"_blank">change your contact details</a> at any time.</div>=
+</div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso=
+ | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[i=
+f mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table><table =
+align=3D"center" style=3D"font-family: 'Roboto', Helvetica, sans-serif; fon=
+t-weight: 400; letter-spacing: .018em; text-align: center; font-size: 10px;=
+"><tr><td style=3D"padding-bottom: 20px"></td></tr></table></div></body></h=
+tml><img src=3D"https://newsletter.coingecko.com/open.html?x=3Da62e&co=3DwE=
+ld&m=3DdR7&mc=3D0&s=3Dd37o0&u=3Dp&z=3DhPUV3ef&" width=3D"0" height=3D"0" bo=
+rder=3D"0" alt=3D"" role=3D"presentation" />=
+
+--12273453784ed135d5b07d897a0b10e6--

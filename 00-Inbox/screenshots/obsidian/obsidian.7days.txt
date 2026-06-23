@@ -1,0 +1,15 @@
+THIS IS HOW YOU LEARN OBSIDIAN IN 7 DAYS AND NEVER LOSE A THOUGHT AGAIN.
+
+
+
+this is the roadmap that actually sticks.
+
+Day 1 → download Obsidian, create first vault, write your first note
+Day 2 → learn linking with [[Note Name]] syntax, open Graph View
+Day 3 → build the Daily Notes habit, write 3 things to remember
+Day 4 → set up PARA folders: Projects, Areas, Resources, Archive
+Day 5 → install 3 plugins that turn notes into a system Calendar etc
+Day 6 → build your first Daily Note template with date, tasks, and links
+Day 7 →open Graph View, kill every orphan note, build your first Map of Content, set a Sunday weekly review
+
+A useful vault develops over 3 to 6 months, but the habit is built in 7 days.
