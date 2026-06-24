@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "ms-vscode.vscode-markdownlint",
+    "yzhang.markdown-all-in-one",
+    "esbenp.prettier-vscode",
+    "github.copilot",
+    "ms-vscode-remote.remote-containers",
+    "ms-vsliveshare.vsliveshare"
+  ],
+  "unwantedRecommendations": []
+}

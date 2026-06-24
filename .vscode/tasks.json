@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "List MRB files",
+      "type": "shell",
+      "command": "bash -lc 'echo "MRB files in 00-Inbox/memory:"; find 00-Inbox/memory -type f -name "*.md" -print || true'",
+      "problemMatcher": []
+    },
+    {
+      "label": "Validate MRB metadata (basic)",
+      "type": "shell",
+      "command": "bash -lc 'grep -R "^id: mrb-" 00-Inbox || echo "No MRB id: lines found"'",
+      "problemMatcher": []
+    }
+  ]
+}
