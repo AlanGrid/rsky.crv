@@ -3,7 +3,7 @@
 **System:** Profit.OS — rsky.crv Knowledge Architecture
 **Maintained By:** Claude (session-generated) + Alan (manual review)
 **Target Directory:** `D:\Users\RSky\Desktop\AI.ProFit\rsky.crv\04-Claude\memory`
-**Last Updated:** 2026-06-23
+**Last Updated:** 2026-06-24
 **Template Version:** MRB_v1.2
 
 ---
@@ -541,6 +541,25 @@ Trigger: First nuclear synthetic listing on Jupiter (OKLOx, CCJx, SMRx, LEUx), f
 
 ---
 
+#### PHMN (POSTHUMAN DAO)
+
+**Type:** Observational Record
+**Template:** Narrative (no 7-field card — observational only)
+**Status:** Observational — No Allocation Intent
+**EDS:** 0 (Non-Deterministic)
+**Created:** 2026-06-23
+
+**Covers:**
+- POSTHUMAN validator DAO governance token, 40+ networks, max supply 131,072
+- Revenue accrual model: 20% commission → buybacks + LP
+- Micro-cap, illiquid — outside Core and Rotational tiers
+- No 7-field card. No position. No escalation path currently defined.
+
+**Escalation condition:** Liquidity depth crosses threshold + validator metrics confirm sustained revenue accrual → re-classify to Research State, begin 7-field card
+**Storage Path:** `00-Inbox\memory\2026-06-23_MRB_PHMN.Crypto_Overview.md`
+
+---
+
 #### [[2026-06-10_MRB_HARNESS_invariants-layer]]
 
 **Type:** System Architecture Decision
@@ -759,8 +778,9 @@ MRB_claude-memory (ROOT)
 │   ├── NVDAx
 │   ├── TSLAx [OPTIMUS CATALYST OPEN — no exit thesis documented]
 │   ├── GOOGLx
-│   └── GNOT (gno.land) [TESTNET ACTIVE — EDS 0 mainnet]
-│       └── MRB_gnoland-gnot-uniqueness-UPDATE (2026-06-23)
+│   ├── GNOT (gno.land) [TESTNET ACTIVE — EDS 0 mainnet]
+│   │   └── MRB_gnoland-gnot-uniqueness-UPDATE (2026-06-23)
+│   └── PHMN (POSTHUMAN DAO) [OBSERVATIONAL — EDS 0 — no allocation intent]
 │
 ├── MRB_jupiterdex-defi-legitimacy
 │
@@ -803,6 +823,9 @@ MRB_claude-memory (ROOT)
 ---
 
 ## Key System Change Summary
+
+### Observational Asset Added (2026-06-24)
+**PHMN (POSTHUMAN DAO)** — Classified Observational, no allocation intent. EDS = 0. Registered in Active MRBs and dependency graph. No load order entry, no 7-field card. Escalation condition defined.
 
 ### New Session Type Added (2026-06-23)
 **Cosmos / Gno.land Watch** — updated to reflect GnoSwap Testnet 13 active participation. MRB superseded to `2026-06-23_MRB_gnoland-gnot-uniqueness-UPDATE.md`. Mainnet rules unchanged (EDS = 0).
