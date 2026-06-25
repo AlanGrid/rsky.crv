@@ -3,7 +3,7 @@
 **System:** Profit.OS — rsky.crv Knowledge Architecture
 **Maintained By:** Claude (session-generated) + Alan (manual review)
 **Target Directory:** `D:\Users\RSky\Desktop\AI.ProFit\rsky.crv\04-Claude\memory`
-**Last Updated:** 2026-06-24
+**Last Updated:** 2026-06-25
 **Template Version:** MRB_v1.2
 
 ---
@@ -350,6 +350,22 @@ Trigger: Any GNOT transfer unlock announcement, GovDAO vote, GnoSwap listing con
 
 ---
 
+### Gno.land / Akkadia Session
+
+Trigger: Any Akkadia alpha update, AI-agent integration news on Gno.land, BROT/Blockrot activity, or on-chain virtual world development.
+
+| Load Order | File | Provides |
+|---|---|---|
+| 1 | `2026-06-25_MRB_Gnoland_Akkadia.Review.md` | Akkadia thesis, agent architecture, BROT assessment |
+| 2 | `2026-06-23_MRB_gnoland-gnot-uniqueness-UPDATE.md` | GNOT testnet state + mainnet hold rules |
+| 3 (if capital decision) | `2026-05-31_MRB_claude-memory.md` | Capital framework |
+
+**Signal:** HOLD. No capital deployment until agent persistence + user retention metrics visible.
+**BROT constraint:** Experimental only. Not infrastructure-grade. Reassess on maturity improvement.
+**Escalation condition:** Agent persistence + user retention confirmed in Akkadia → re-evaluate signal from HOLD to Research State entry.
+
+---
+
 ### RWA / MANTRA-NVNM Session
 
 Trigger: Any NVNM Chain update, MANTRA staking metrics, Inveniam ecosystem news, or fee flow disclosure.
@@ -588,6 +604,29 @@ Trigger: First nuclear synthetic listing on Jupiter (OKLOx, CCJx, SMRx, LEUx), f
 
 **Escalation condition:** Liquidity depth crosses threshold + validator metrics confirm sustained revenue accrual → re-classify to Research State, begin 7-field card
 **Storage Path:** `00-Inbox\memory\2026-06-23_MRB_PHMN.Crypto_Overview.md`
+
+---
+
+#### [[2026-06-25_MRB_Gnoland_Akkadia.Review]]
+
+**Type:** Ecosystem Research — Virtual World / AI-Agent Architecture
+**Template:** ✅ MRB_v1.2
+**Status:** Active — HOLD
+**EDS:** 45/100 (Partial Determinism)
+**Created:** 2026-06-25
+
+**Covers:**
+
+- Akkadia alpha confirms Gno.land is already executing the virtual-world thesis
+- Strategic next layer: AI-native coordination, agent-owned economies, autonomous quest generation
+- Blockrot/BROT (Solana): speculative, narrative-dependent, not infrastructure-grade
+- Compelling autonomous world threshold: ~25–50 persistent agents with memory + goals
+- Interaction density > agent count as the quality metric
+- Economic outcomes non-deterministic; scale only after agent interactions prove engaging
+
+**Escalation condition:** Agent persistence + user retention confirmed in Akkadia → re-evaluate from HOLD to Research State entry.
+**Feeds Into:** `[[2026-06-23_MRB_gnoland-gnot-uniqueness-UPDATE]]`
+**Storage Path:** `00-Inbox\memory\2026-06-25_MRB_Gnoland_Akkadia.Review.md`
 
 ---
 
@@ -848,6 +887,7 @@ MRB_claude-memory (ROOT)
 │   ├── GOOGLx
 │   ├── GNOT (gno.land) [TESTNET ACTIVE — EDS 0 mainnet]
 │   │   └── MRB_gnoland-gnot-uniqueness-UPDATE (2026-06-23)
+│   │   └── MRB_Gnoland_Akkadia.Review (2026-06-25) [HOLD — agent persistence gate]
 │   └── PHMN (POSTHUMAN DAO) [OBSERVATIONAL — EDS 0 — no allocation intent]
 │
 ├── MRB_jupiterdex-defi-legitimacy
@@ -891,6 +931,10 @@ MRB_claude-memory (ROOT)
 ---
 
 ## Key System Change Summary
+
+### New MRB Added (2026-06-25)
+
+**Gno.land Akkadia Review** — Akkadia alpha positions Gno.land in the virtual world / AI-agent space. Strategic thesis: autonomous agent economies > scripted NPC populations. BROT classified experimental. Signal: HOLD pending persistence metrics. New session type added.
 
 ### Pipeline Verified Production (2026-06-25)
 
