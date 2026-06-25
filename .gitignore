@@ -5,3 +5,7 @@
 !.gitignore
 !00-Inbox/
 !00-Inbox/**
+.vscode/
+*.code-workspace
+.vscode/
+*.code-workspace
