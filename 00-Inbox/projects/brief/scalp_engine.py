@@ -28,16 +28,18 @@ import datetime
 
 import requests
 
-sys.path.insert(0, str(pathlib.Path(__file__).parent / "rsky.profit_telegram.bot"))
+BASE_DIR = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(BASE_DIR / "rsky.profit_telegram.bot"))
 from telegram_dispatcher import publish_signal, load_state, save_state
 
 # -- Logging -------------------------------------------------------------------
+LOG_PATH = BASE_DIR / "scalp-engine.log"
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s  %(levelname)-7s %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
     handlers=[
-        logging.FileHandler("scalp-engine.log", encoding="utf-8"),
+        logging.FileHandler(LOG_PATH, encoding="utf-8"),
         logging.StreamHandler(),
     ],
 )
@@ -48,10 +50,11 @@ TG_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TG_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 POLL_INTERVAL = 60  # seconds between full watchlist scans
 MIN_LIQUIDITY = 10_000  # USD � below this, skip scoring (manipulation risk)
-WATCHLIST_PATH = pathlib.Path(__file__).parent / "watchlist.json"
-SIGNAL_LOG = pathlib.Path(__file__).parent / "signal_log.jsonl"
-BRIEF_PATH = pathlib.Path(__file__).parent / "brief-latest.json"
-SHORTLIST_PATH = pathlib.Path(__file__).parent / "scalp-shortlist.json"
+WATCHLIST_PATH = BASE_DIR / "watchlist.json"
+SIGNAL_LOG = BASE_DIR / "signal_log.jsonl"
+BRIEF_PATH = BASE_DIR / "brief-latest.json"
+SHORTLIST_PATH = BASE_DIR / "scalp-shortlist.json"
+EVENT_LOG_PATH = BASE_DIR / "event_log.jsonl"
 
 # Alert cooldown � prevents repeat alerts for same asset within window
 _alert_cooldown: dict[str, float] = {}
@@ -468,9 +471,8 @@ def run_cycle(watchlist: list[dict]) -> None:
     except Exception as e:
         log.error(f"Shortlist write failed: {e}")
     # Append scored assets to an append-only event log for auditing and downstream consumers
-    event_log_path = pathlib.Path(__file__).parent / "event_log.jsonl"
     try:
-        with open(event_log_path, "a", encoding="utf-8") as ef:
+        with open(EVENT_LOG_PATH, "a", encoding="utf-8") as ef:
             for r in results:
                 f = r.get("f", {})
                 ef.write(

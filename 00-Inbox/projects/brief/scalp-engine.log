@@ -841,3 +841,26 @@
 2026-06-27 01:30:52  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
 2026-06-27 01:30:52  INFO    Shortlist written � 0 candidates: []
 2026-06-27 01:30:52  INFO    Cycle complete � 15 scored, 6 actionable
+2026-06-27 01:31:52  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:32:02  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 502896, 'h24': 517508}
+2026-06-27 01:32:02  INFO    Data received: 15/17 assets
+2026-06-27 01:32:02  INFO    REGIME GATE - SOL T2 suppressed (regime UNKNOWN)
+2026-06-27 01:32:02  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:32:02  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:32:02  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:32:02  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:32:02  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:32:02  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:32:02  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:32:02  INFO    Cycle complete � 15 scored, 7 actionable
+2026-06-27 01:33:02  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:33:12  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 502896, 'h24': 517508}
+2026-06-27 01:33:13  INFO    Data received: 15/17 assets
+2026-06-27 01:33:13  INFO    REGIME GATE - SOL T2 suppressed (regime UNKNOWN)
+2026-06-27 01:33:13  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:33:13  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:33:13  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:33:13  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:33:13  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:33:13  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:33:13  INFO    Cycle complete � 15 scored, 6 actionable
