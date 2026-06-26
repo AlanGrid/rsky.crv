@@ -541,3 +541,235 @@
 2026-06-27 00:57:53  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
 2026-06-27 00:57:53  INFO    Shortlist written � 0 candidates: []
 2026-06-27 00:57:53  INFO    Cycle complete � 15 scored, 4 actionable
+2026-06-27 00:58:53  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 00:59:03  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 504430, 'h24': 4.26}
+2026-06-27 00:59:04  INFO    Data received: 15/17 assets
+2026-06-27 00:59:04  INFO    REGIME GATE - SOL T2 suppressed (regime UNKNOWN)
+2026-06-27 00:59:04  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 00:59:04  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 00:59:04  INFO    Shortlist written � 0 candidates: []
+2026-06-27 00:59:04  INFO    Cycle complete � 15 scored, 3 actionable
+2026-06-27 01:00:04  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:00:14  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:00:14  INFO    Data received: 15/17 assets
+2026-06-27 01:00:14  INFO    REGIME GATE - SOL T2 suppressed (regime UNKNOWN)
+2026-06-27 01:00:14  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:00:14  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:00:14  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:00:14  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:00:14  INFO    Cycle complete � 15 scored, 4 actionable
+2026-06-27 01:01:14  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:01:24  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:01:25  INFO    Data received: 15/17 assets
+2026-06-27 01:01:25  INFO    REGIME GATE - SOL T2 suppressed (regime UNKNOWN)
+2026-06-27 01:01:25  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:01:25  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:01:25  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:01:25  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:01:25  INFO    Cycle complete � 15 scored, 4 actionable
+2026-06-27 01:02:25  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:02:26  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'m5': 493114, 'h1': 491994, 'h6': 490807, 'h24': 502902}
+2026-06-27 01:02:34  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:02:35  INFO    Data received: 14/17 assets
+2026-06-27 01:02:35  INFO    REGIME GATE - SOL T2 suppressed (regime UNKNOWN)
+2026-06-27 01:02:35  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:02:35  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:02:35  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:02:35  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:02:35  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:02:35  INFO    Cycle complete � 14 scored, 5 actionable
+2026-06-27 01:03:35  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:03:45  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:03:46  INFO    Data received: 15/17 assets
+2026-06-27 01:03:46  INFO    REGIME GATE - SOL T2 suppressed (regime UNKNOWN)
+2026-06-27 01:03:46  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:03:46  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:03:46  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:03:46  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:03:46  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:03:46  INFO    Cycle complete � 15 scored, 5 actionable
+2026-06-27 01:04:46  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:04:55  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:04:56  INFO    Data received: 15/17 assets
+2026-06-27 01:04:56  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:04:56  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:04:56  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:04:56  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:04:56  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:04:56  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:04:56  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:04:56  INFO    Cycle complete � 15 scored, 6 actionable
+2026-06-27 01:05:56  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:06:06  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:06:07  INFO    Data received: 15/17 assets
+2026-06-27 01:06:07  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:06:07  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:06:07  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:06:07  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:06:07  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:06:07  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:06:07  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:06:07  INFO    Cycle complete � 15 scored, 6 actionable
+2026-06-27 01:07:07  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:07:16  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:07:17  INFO    Data received: 15/17 assets
+2026-06-27 01:07:17  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:07:17  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:07:17  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:07:17  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:07:17  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:07:17  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:07:17  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:07:17  INFO    Cycle complete � 15 scored, 6 actionable
+2026-06-27 01:08:17  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:08:27  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:08:28  INFO    Data received: 15/17 assets
+2026-06-27 01:08:28  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:08:28  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:08:28  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:08:28  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:08:28  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:08:28  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:08:28  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:08:28  INFO    Cycle complete � 15 scored, 6 actionable
+2026-06-27 01:09:28  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:09:38  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:09:39  INFO    Data received: 15/17 assets
+2026-06-27 01:09:39  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:09:39  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:09:39  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:09:39  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:09:39  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:09:39  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:09:39  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:09:39  INFO    Cycle complete � 15 scored, 6 actionable
+2026-06-27 01:10:39  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:10:50  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:10:51  INFO    Data received: 15/17 assets
+2026-06-27 01:10:51  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:10:51  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:10:51  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:10:51  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:10:51  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:10:51  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:10:51  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:10:51  INFO    Cycle complete � 15 scored, 6 actionable
+2026-06-27 01:11:51  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:12:01  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:12:01  INFO    Data received: 15/17 assets
+2026-06-27 01:12:01  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:12:01  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:12:01  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:12:01  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:12:01  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:12:01  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:12:01  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:12:01  INFO    Cycle complete � 15 scored, 6 actionable
+2026-06-27 01:13:01  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:13:11  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:13:12  INFO    Data received: 15/17 assets
+2026-06-27 01:13:12  INFO    REGIME GATE - SOL T2 suppressed (regime UNKNOWN)
+2026-06-27 01:13:12  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:13:12  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:13:12  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:13:12  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:13:12  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:13:12  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:13:12  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:13:12  INFO    Cycle complete � 15 scored, 7 actionable
+2026-06-27 01:14:12  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:14:21  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:14:22  INFO    Data received: 15/17 assets
+2026-06-27 01:14:22  INFO    REGIME GATE - SOL T2 suppressed (regime UNKNOWN)
+2026-06-27 01:14:22  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:14:22  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:14:22  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:14:22  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:14:22  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:14:22  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:14:22  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:14:22  INFO    Cycle complete � 15 scored, 7 actionable
+2026-06-27 01:15:22  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:15:32  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:15:33  INFO    Data received: 15/17 assets
+2026-06-27 01:15:33  INFO    REGIME GATE - SOL T2 suppressed (regime UNKNOWN)
+2026-06-27 01:15:33  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:15:33  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:15:33  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:15:33  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:15:33  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:15:33  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:15:33  INFO    Cycle complete � 15 scored, 6 actionable
+2026-06-27 01:16:33  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:16:43  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505090, 'h24': 4.26}
+2026-06-27 01:16:44  INFO    Data received: 15/17 assets
+2026-06-27 01:16:44  INFO    REGIME GATE - SOL T2 suppressed (regime UNKNOWN)
+2026-06-27 01:16:44  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:16:44  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:16:44  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:16:44  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:16:44  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:16:44  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:16:44  INFO    Cycle complete � 15 scored, 6 actionable
+2026-06-27 01:17:44  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:17:54  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505898, 'h24': 4.26}
+2026-06-27 01:17:55  INFO    Data received: 15/17 assets
+2026-06-27 01:17:55  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:17:55  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:17:55  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:17:55  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:17:55  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:17:55  INFO    REGIME GATE - JLP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:17:55  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:17:55  INFO    Cycle complete � 15 scored, 6 actionable
+2026-06-27 01:18:55  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:19:05  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505898, 'h24': 4.26}
+2026-06-27 01:19:05  INFO    Data received: 15/17 assets
+2026-06-27 01:19:05  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:19:05  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:19:05  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:19:05  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:19:05  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:19:05  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:19:05  INFO    Cycle complete � 15 scored, 5 actionable
+2026-06-27 01:20:05  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:20:15  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 505898, 'h24': 4.26}
+2026-06-27 01:20:16  INFO    Data received: 15/17 assets
+2026-06-27 01:20:16  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:20:16  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:20:16  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:20:16  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:20:16  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:20:16  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:20:16  INFO    Cycle complete � 15 scored, 5 actionable
+2026-06-27 01:21:16  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:21:26  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 503828, 'h24': 4.26}
+2026-06-27 01:21:27  INFO    Data received: 15/17 assets
+2026-06-27 01:21:27  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:21:27  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:21:27  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:21:27  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:21:27  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:21:27  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:21:27  INFO    Cycle complete � 15 scored, 5 actionable
+2026-06-27 01:22:27  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:22:37  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 503828, 'h24': 4.26}
+2026-06-27 01:22:38  INFO    Data received: 15/17 assets
+2026-06-27 01:22:38  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:22:38  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:22:38  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:22:38  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:22:38  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:22:38  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:22:38  INFO    Cycle complete � 15 scored, 5 actionable
+2026-06-27 01:23:38  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 01:23:47  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h6': 503828, 'h24': 4.26}
+2026-06-27 01:23:48  INFO    Data received: 15/17 assets
+2026-06-27 01:23:48  INFO    REGIME GATE - cbBTC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:23:48  INFO    REGIME GATE - PENGU T2 suppressed (regime UNKNOWN)
+2026-06-27 01:23:48  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 01:23:48  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 01:23:48  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 01:23:48  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 01:23:48  INFO    Shortlist written � 0 candidates: []
+2026-06-27 01:23:48  INFO    Cycle complete � 15 scored, 6 actionable
