@@ -2512,3 +2512,401 @@
 2026-06-27 06:11:47  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
 2026-06-27 06:11:47  INFO    Shortlist written � 0 candidates: []
 2026-06-27 06:11:47  INFO    Cycle complete � 12 scored, 2 actionable
+2026-06-27 06:12:47  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:12:49  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499532, 'h24': 500176}
+2026-06-27 06:12:49  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 1.54, 'h6': -1.04, 'h24': 516655}
+2026-06-27 06:12:50  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:12:57  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'m5': -2.74, 'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:12:58  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.12, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:12:58  INFO    Data received: 11/17 assets
+2026-06-27 06:12:58  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:12:58  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:12:58  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:12:58  INFO    Cycle complete � 11 scored, 2 actionable
+2026-06-27 06:13:58  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:13:59  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499532, 'h24': 500176}
+2026-06-27 06:14:00  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 1.54, 'h6': -1.04, 'h24': 516655}
+2026-06-27 06:14:01  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:14:07  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'m5': -2.74, 'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:14:08  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.12, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:14:08  INFO    Data received: 11/17 assets
+2026-06-27 06:14:08  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:14:08  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:14:08  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:14:08  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:14:08  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:15:08  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:15:10  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499532, 'h24': 500176}
+2026-06-27 06:15:10  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 1.54, 'h6': -1.6, 'h24': 516655}
+2026-06-27 06:15:11  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:15:18  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:15:18  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.12, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:15:19  INFO    Data received: 11/17 assets
+2026-06-27 06:15:19  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:15:19  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:15:19  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:15:19  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:15:19  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:16:19  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:16:20  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499532, 'h24': 500176}
+2026-06-27 06:16:21  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 1.54, 'h6': -1.6, 'h24': 516655}
+2026-06-27 06:16:21  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:16:28  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:16:29  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.12, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:16:29  INFO    Data received: 11/17 assets
+2026-06-27 06:16:29  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:16:29  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:16:29  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:16:29  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:16:29  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:17:29  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:17:31  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499532, 'h24': 500176}
+2026-06-27 06:17:31  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'m5': 0.5, 'h1': 2.04, 'h6': -1.11, 'h24': 516705}
+2026-06-27 06:17:32  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:17:39  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:17:39  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.12, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:17:40  INFO    Data received: 11/17 assets
+2026-06-27 06:17:40  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:17:40  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:17:40  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:17:40  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:17:40  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:18:40  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:18:41  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499532, 'h24': 500176}
+2026-06-27 06:18:42  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'m5': 0.5, 'h1': 2.04, 'h6': -1.11, 'h24': 516705}
+2026-06-27 06:18:43  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:18:50  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:18:50  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.12, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:18:50  INFO    Data received: 11/17 assets
+2026-06-27 06:18:50  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:18:50  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:18:50  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:18:50  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:18:50  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:19:50  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:19:52  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499532, 'h24': 500176}
+2026-06-27 06:19:53  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'m5': 0.5, 'h1': 2.04, 'h6': -1.11, 'h24': 516705}
+2026-06-27 06:19:53  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:20:00  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:20:01  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.12, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:20:01  INFO    Data received: 11/17 assets
+2026-06-27 06:20:01  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:20:01  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:20:01  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:20:01  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:20:01  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:21:01  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:21:03  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499532, 'h24': 500176}
+2026-06-27 06:21:03  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'m5': 0.5, 'h1': 2.04, 'h6': -1.11, 'h24': 515574}
+2026-06-27 06:21:04  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:21:11  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:21:12  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.12, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:21:12  INFO    Data received: 11/17 assets
+2026-06-27 06:21:12  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:21:12  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:21:12  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:21:12  INFO    REGIME GATE - ZEC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:21:12  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:21:12  INFO    Cycle complete � 11 scored, 4 actionable
+2026-06-27 06:22:12  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:22:14  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499532, 'h24': 500176}
+2026-06-27 06:22:14  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 2.04, 'h6': -1.11, 'h24': 515574}
+2026-06-27 06:22:15  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:22:22  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:22:23  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.12, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:22:23  INFO    Data received: 11/17 assets
+2026-06-27 06:22:23  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:22:23  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:22:23  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:22:23  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:22:23  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:23:23  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:23:25  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 497045, 'h24': 500176}
+2026-06-27 06:23:25  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 1, 'h6': -1.11, 'h24': 515574}
+2026-06-27 06:23:26  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:23:33  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:23:34  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.12, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:23:34  INFO    Data received: 11/17 assets
+2026-06-27 06:23:34  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:23:34  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:23:34  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:23:34  INFO    Cycle complete � 11 scored, 2 actionable
+2026-06-27 06:24:34  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:24:35  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 497045, 'h24': 500176}
+2026-06-27 06:24:36  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 1, 'h6': -1.11, 'h24': 515574}
+2026-06-27 06:24:36  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:24:43  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:24:44  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.12, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:24:44  INFO    Data received: 11/17 assets
+2026-06-27 06:24:44  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:24:44  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:24:44  INFO    Cycle complete � 11 scored, 1 actionable
+2026-06-27 06:25:44  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:25:46  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 497045, 'h24': 500176}
+2026-06-27 06:25:46  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 1, 'h6': -1.11, 'h24': 515574}
+2026-06-27 06:25:47  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:25:54  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:25:54  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.12, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:25:55  INFO    Data received: 11/17 assets
+2026-06-27 06:25:55  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:25:55  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:25:55  INFO    Cycle complete � 11 scored, 1 actionable
+2026-06-27 06:26:55  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:26:56  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 497045, 'h24': 500176}
+2026-06-27 06:26:57  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 1, 'h6': -1.11, 'h24': 515574}
+2026-06-27 06:26:57  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:27:04  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -1.71, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:27:05  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': -0.13, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:27:05  INFO    Data received: 11/17 assets
+2026-06-27 06:27:05  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:27:05  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:27:05  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:27:05  INFO    Cycle complete � 11 scored, 2 actionable
+2026-06-27 06:28:05  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:28:07  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 497045, 'h24': 500176}
+2026-06-27 06:28:08  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 1, 'h6': -1.11, 'h24': 515574}
+2026-06-27 06:28:08  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:28:15  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:28:16  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': -0.16, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:28:16  INFO    Data received: 11/17 assets
+2026-06-27 06:28:16  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:28:16  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:28:16  INFO    REGIME GATE - HYPE T2 suppressed (regime UNKNOWN)
+2026-06-27 06:28:16  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:28:16  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:29:16  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:29:18  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 497045, 'h24': 500777}
+2026-06-27 06:29:18  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 1, 'h6': -1.11, 'h24': 515574}
+2026-06-27 06:29:19  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:29:26  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:29:26  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': -0.16, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:29:27  INFO    Data received: 11/17 assets
+2026-06-27 06:29:27  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:29:27  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:29:27  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:29:27  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:29:27  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:30:27  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:30:28  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499950, 'h24': 500777}
+2026-06-27 06:30:29  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 2.54, 'h6': -1.11, 'h24': 515574}
+2026-06-27 06:30:30  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:30:37  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:30:37  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 0.79, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:30:37  INFO    Data received: 11/17 assets
+2026-06-27 06:30:37  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:30:37  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:30:37  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:30:37  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:30:37  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:31:37  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:31:39  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499950, 'h24': 500777}
+2026-06-27 06:31:40  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 2.54, 'h6': -0.54, 'h24': 515574}
+2026-06-27 06:31:40  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:31:47  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:31:48  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 0.79, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:31:48  INFO    Data received: 11/17 assets
+2026-06-27 06:31:48  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:31:48  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:31:48  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:31:48  INFO    Cycle complete � 11 scored, 2 actionable
+2026-06-27 06:32:48  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:32:49  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499950, 'h24': 500777}
+2026-06-27 06:32:50  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 2.54, 'h6': -0.48, 'h24': 515574}
+2026-06-27 06:32:50  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 492634, 'h6': 489914, 'h24': 486978}
+2026-06-27 06:32:58  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:32:58  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 0.79, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:32:58  INFO    Data received: 11/17 assets
+2026-06-27 06:32:58  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:32:58  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:32:58  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:32:58  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:32:58  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:33:58  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:34:00  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499950, 'h24': 500777}
+2026-06-27 06:34:01  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 2.54, 'h6': -0.48, 'h24': 515574}
+2026-06-27 06:34:01  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h6': 489914, 'h24': 486978}
+2026-06-27 06:34:08  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:34:09  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:34:09  INFO    Data received: 11/17 assets
+2026-06-27 06:34:09  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:34:09  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:34:09  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:34:09  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:34:09  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:35:09  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:35:11  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499950, 'h24': 500777}
+2026-06-27 06:35:11  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 2.54, 'h6': -0.48, 'h24': 515574}
+2026-06-27 06:35:12  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h6': 489914, 'h24': 486978}
+2026-06-27 06:35:19  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:35:19  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:35:20  INFO    Data received: 11/17 assets
+2026-06-27 06:35:20  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:35:20  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:35:20  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:35:20  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:35:20  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:36:20  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:36:21  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499706, 'h24': 500777}
+2026-06-27 06:36:22  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 1.51, 'h6': -0.48, 'h24': 514484}
+2026-06-27 06:36:22  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h6': 489914, 'h24': 486978}
+2026-06-27 06:36:30  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:36:30  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 513463}
+2026-06-27 06:36:30  INFO    Data received: 11/17 assets
+2026-06-27 06:36:30  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:36:30  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:36:30  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:36:30  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:36:30  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:37:30  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:37:32  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 499706, 'h24': 500777}
+2026-06-27 06:37:33  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 1.51, 'h6': -0.48, 'h24': 520713}
+2026-06-27 06:37:33  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h6': 489914, 'h24': 486978}
+2026-06-27 06:37:40  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:37:41  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:37:41  INFO    Data received: 11/17 assets
+2026-06-27 06:37:41  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:37:41  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:37:41  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:37:41  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:37:41  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:38:41  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:38:43  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 500669, 'h24': 500777}
+2026-06-27 06:38:43  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'m5': -1.49, 'h1': -0.01, 'h6': -1.97, 'h24': 512927}
+2026-06-27 06:38:44  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h6': 489914, 'h24': 486978}
+2026-06-27 06:38:51  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:38:52  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:38:52  INFO    Data received: 11/17 assets
+2026-06-27 06:38:52  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:38:52  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:38:52  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:38:52  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:38:52  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:39:52  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:39:54  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 500669, 'h24': 500777}
+2026-06-27 06:39:54  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'m5': -1.49, 'h1': -0.01, 'h6': -1.97, 'h24': 512927}
+2026-06-27 06:39:55  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h6': 489914, 'h24': 486978}
+2026-06-27 06:40:02  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:40:03  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:40:03  INFO    Data received: 11/17 assets
+2026-06-27 06:40:03  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:40:03  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:40:03  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:40:03  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:40:03  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:41:03  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:41:05  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 500669, 'h24': 500777}
+2026-06-27 06:41:05  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'m5': -1.49, 'h1': -0.01, 'h6': -1.97, 'h24': 512927}
+2026-06-27 06:41:06  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h6': 489914, 'h24': 486978}
+2026-06-27 06:41:13  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:41:13  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:41:13  INFO    Data received: 11/17 assets
+2026-06-27 06:41:13  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:41:13  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:41:13  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:41:13  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:41:13  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:42:13  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:42:15  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 500669, 'h24': 500777}
+2026-06-27 06:42:16  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'m5': -1.49, 'h1': -0.01, 'h6': -1.97, 'h24': 512927}
+2026-06-27 06:42:16  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h6': 489914, 'h24': 486978}
+2026-06-27 06:42:23  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:42:24  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:42:24  INFO    Data received: 11/17 assets
+2026-06-27 06:42:24  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:42:24  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:42:24  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:42:24  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:42:24  INFO    Cycle complete � 11 scored, 3 actionable
+2026-06-27 06:43:24  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:43:26  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 500669, 'h24': 500777}
+2026-06-27 06:43:26  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': -0.01, 'h6': -1.97, 'h24': 512927}
+2026-06-27 06:43:27  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h6': 489914, 'h24': 486978}
+2026-06-27 06:43:34  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:43:34  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:43:35  INFO    Data received: 11/17 assets
+2026-06-27 06:43:35  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:43:35  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:43:35  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:43:35  INFO    Cycle complete � 11 scored, 2 actionable
+2026-06-27 06:44:35  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:44:36  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 500669, 'h24': 500777}
+2026-06-27 06:44:37  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': -0.01, 'h6': -1.97, 'h24': 512927}
+2026-06-27 06:44:37  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h6': 489914, 'h24': 486978}
+2026-06-27 06:44:45  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:44:45  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:44:46  INFO    Data received: 11/17 assets
+2026-06-27 06:44:46  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:44:46  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:44:46  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:44:46  INFO    Cycle complete � 11 scored, 2 actionable
+2026-06-27 06:45:46  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:45:47  WARNING DATA QUALITY: cbbtcf3a... rejected � implausible priceChange {'h1': 498544, 'h6': 500669, 'h24': 500777}
+2026-06-27 06:45:48  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': -0.01, 'h6': -1.97, 'h24': 512927}
+2026-06-27 06:45:49  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'m5': 1.27, 'h1': 1.27, 'h6': 496135, 'h24': 493162}
+2026-06-27 06:45:56  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:45:56  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:45:57  INFO    Data received: 11/17 assets
+2026-06-27 06:45:57  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:45:57  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:45:57  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:45:57  INFO    Cycle complete � 11 scored, 2 actionable
+2026-06-27 06:46:57  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:46:59  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'m5': 1.01, 'h1': 1, 'h6': -0.04, 'h24': 518112}
+2026-06-27 06:47:00  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'m5': 1.27, 'h1': 1.27, 'h6': 496135, 'h24': 493162}
+2026-06-27 06:47:07  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:47:08  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:47:08  INFO    Data received: 12/17 assets
+2026-06-27 06:47:08  INFO    REGIME GATE - cbBTC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:47:08  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:47:08  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:47:08  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:47:08  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:47:08  INFO    Cycle complete � 12 scored, 4 actionable
+2026-06-27 06:48:08  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:48:10  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'m5': 1.01, 'h1': 0.5, 'h6': -0.04, 'h24': 518112}
+2026-06-27 06:48:11  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'m5': 1.27, 'h1': 1.27, 'h6': 496135, 'h24': 493162}
+2026-06-27 06:48:18  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:48:19  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': 1.17, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:48:19  INFO    Data received: 12/17 assets
+2026-06-27 06:48:19  INFO    REGIME GATE - cbBTC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:48:19  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:48:19  INFO    REGIME GATE - wNEAR T2 suppressed (regime UNKNOWN)
+2026-06-27 06:48:19  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:48:19  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:48:19  INFO    Cycle complete � 12 scored, 4 actionable
+2026-06-27 06:49:19  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:49:21  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'m5': 1.01, 'h1': 0.5, 'h6': -0.04, 'h24': 518112}
+2026-06-27 06:49:22  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'m5': 0.16, 'h1': 1.27, 'h6': 496135, 'h24': 493162}
+2026-06-27 06:49:29  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:49:29  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': -0.37, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:49:30  INFO    Data received: 12/17 assets
+2026-06-27 06:49:30  INFO    REGIME GATE - cbBTC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:49:30  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:49:30  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:49:30  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:49:30  INFO    Cycle complete � 12 scored, 3 actionable
+2026-06-27 06:50:30  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:50:32  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'m5': 1.01, 'h1': 0.5, 'h6': -0.04, 'h24': 518112}
+2026-06-27 06:50:33  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 1.27, 'h6': 496135, 'h24': 493162}
+2026-06-27 06:50:40  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:50:40  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': -0.42, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:50:41  INFO    Data received: 12/17 assets
+2026-06-27 06:50:41  INFO    REGIME GATE - cbBTC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:50:41  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:50:41  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:50:41  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:50:41  INFO    Cycle complete � 12 scored, 3 actionable
+2026-06-27 06:51:41  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:51:43  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 0.5, 'h6': 0.88, 'h24': 518112}
+2026-06-27 06:51:43  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 1.27, 'h6': 496135, 'h24': 493162}
+2026-06-27 06:51:50  WARNING DATA QUALITY: DezXAZ8z... rejected � implausible priceChange {'h1': -2.74, 'h6': 499283, 'h24': 502824}
+2026-06-27 06:51:51  WARNING DATA QUALITY: 27G8MtK7... rejected � implausible priceChange {'h1': -0.42, 'h6': 500392, 'h24': 505098}
+2026-06-27 06:51:51  INFO    Data received: 12/17 assets
+2026-06-27 06:51:51  INFO    REGIME GATE - cbBTC T2 suppressed (regime UNKNOWN)
+2026-06-27 06:51:51  INFO    REGIME GATE - ETH T2 suppressed (regime UNKNOWN)
+2026-06-27 06:51:51  INFO    REGIME GATE - wXRP T2 suppressed (regime UNKNOWN)
+2026-06-27 06:51:51  INFO    Shortlist written � 0 candidates: []
+2026-06-27 06:51:51  INFO    Cycle complete � 12 scored, 3 actionable
+2026-06-27 06:52:51  INFO    Fetching DexScreener data for 17 assets...
+2026-06-27 06:52:53  WARNING DATA QUALITY: JUPyiwrY... rejected � implausible priceChange {'h1': 0.5, 'h6': 0.88, 'h24': 518112}
+2026-06-27 06:52:54  WARNING DATA QUALITY: WENWENvq... rejected � implausible priceChange {'h1': 1.27, 'h6': 501618, 'h24': 493162}
