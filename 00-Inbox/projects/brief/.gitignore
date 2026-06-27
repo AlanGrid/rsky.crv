@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.log
+event_log.jsonl
+signal_log.jsonl
